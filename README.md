@@ -1,3 +1,5 @@
+
+
 # LEACH Protocol Simulation in OMNeT++ with INET
 
 This project implements the **Low-Energy Adaptive Clustering Hierarchy (LEACH)** protocol, a classic hierarchical routing protocol for wireless sensor networks (WSNs), using OMNeT++ and the INET framework. The code simulates a distributed clustering algorithm where sensor nodes self-organize into clusters, elect cluster heads (CHs) probabilistically, and transmit data to a base station (BS) via CHs to optimize energy consumption.
@@ -146,7 +148,7 @@ The `address.xml` file configures IP addressing for the network:
 ```xml
 <config>
   <interface hosts="host*" names="wlan0" address="10.0.0.x" netmask="255.255.255.0"/>
-  <interface hosts="baseStation" names="wlan0" address="10.0.0.100" netmask="255.255.255.0"/>
+  <interface hosts="baseStation" names="wlan0" address="10.0.0.1" netmask="255.255.255.0"/>
 </config>
 ```
 
